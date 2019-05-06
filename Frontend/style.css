@@ -1,0 +1,257 @@
+body {
+    background-color: gray;
+    margin: 0;
+}
+
+div {
+    /* border: 1px solid white; */
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.main-container {
+    background: rgba(4, 198, 247, 0.932);
+    height: auto;
+}
+
+header {
+    background-image: url(fjng0lh500o.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-flow: column;
+    height: 940px;
+}
+
+.main-nav {
+    flex: 2;
+    display: flex;
+    flex-flow: row;
+    margin: 5px;
+}
+
+#logo {
+    flex: 2;
+    text-align: center;
+}
+
+.main-nav nav {
+    flex: 10;
+    display: flex;
+    flex-flow: row;
+    align-items: stretch;
+    position: relative;
+    margin: 15px;
+    justify-content: space-between;
+}
+
+.main-nav nav > li {
+    flex: 1;
+    line-height: 80px;
+}
+
+.drop-menu {
+    display: none;
+    position: absolute;
+}
+
+.main-nav nav li:hover .drop-menu {
+    display: flex;
+    flex-flow: column;
+}
+
+button {
+    flex: 1 auto;
+    margin: 5px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#big-logo {
+    flex: 12;
+    text-align: center;
+    margin: 5px;
+}
+
+.explore-button {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+    margin: 5px;
+}
+
+.explore-button a {
+    align-self: center;
+}
+
+/* ================================================= */
+
+.permanent-nav {
+    min-height: 100px;
+    display: flex;
+    background: url(gray-texture.jpg);
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+}
+
+.permanent-nav div:nth-of-type(1) {
+    flex: 2;
+}
+.permanent-nav div:nth-of-type(2) {
+    flex: 7;
+}
+.permanent-nav div:nth-of-type(3) {
+    flex: 8;
+}
+
+.permanent-nav nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.permanent-nav div {
+    flex: 1;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+.permanent-nav nav li{
+    flex: 1;
+}
+/* ================================================= */
+
+.photo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.photo div > div {
+    flex: 1;
+    text-align: center;
+    height: 50%;
+    background-color: rgba(177, 138, 68, 0.5);
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo div > div > p {
+}
+
+.photo > a > div {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+.photo > a:nth-of-type(1) {
+    flex: 6 700px;
+}
+.photo > a:nth-of-type(2) {
+    flex: 3 450px;
+}
+.photo > a:nth-of-type(3) {
+    flex: 3 450px;
+}
+.photo > a:nth-of-type(4) {
+    flex: 3 450px;
+}
+.photo > a:nth-of-type(5) {
+    flex: 3 450px;
+}
+.photo > a:nth-of-type(6) {
+    flex: 6 700px;
+}
+
+.foto1 {
+    background: url(fonstola.ru-77057.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto2 {
+    background: url(Natalie-Dormer-Wallpapers.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto3 {
+    background: url(647562.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+.foto4 {
+    background: url(540239318594881.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto5 {
+    background: url(26_4395.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.foto6 {
+    background: url(ebF8smckEjQ.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ================================================= */
+
+.info-about-NN {
+    height: 700px;
+    color: white;
+    font-size: 2em;
+    /* background-color: rgba(255, 255, 255, .9); */
+}
+
+.info-about-NN > div {
+    text-align: center;
+    line-height: 420px;
+    height: 60%;
+    margin: 140px;
+    background-color: rgba(177, 138, 68, 0.5);
+    border-radius: 25px;
+}
+
+
+#mainBackground {
+    background-image: url(GhXdrEUm9Z0.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 100%;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 100vw;
+    z-index: -1;
+}
+
+/* ================================================= */
+
+.footer {
+    height: 150px;
+    background: darkcyan;
+}
