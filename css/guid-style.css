@@ -1,0 +1,30 @@
+.seporator {
+    height: 100px;
+}
+
+/* Переопредление свойств класса line */
+.line > div:first-child {
+    flex: 3;
+    margin: auto 0px;
+}
+.line > div:last-child {
+    flex: 8;
+}
+
+.line .info-about-guid {
+    margin: 0px 10px;
+    /* border: 1px dashed gray; */
+}
+
+.line .guids-photo {
+    min-height: 100%;
+    /* width: auto; */
+    height: 100%;
+    /* border: 1px dashed gray; */
+     
+}
+
+.permanent {
+  position: sticky;
+  top: 0;
+}
